@@ -22,9 +22,11 @@ class Car {
 
 const rs4 = new Car("RS4", "4.2");
 const honda = new Car("Accord","2.0");
+const kia = new Car("Sportage", "1.6");
+
+console.log(kia.name + " " + kia.engine);
 console.log(rs4.name + " " + rs4.engine);
 console.log(rs4.mileage);
-// rs4.increaseMileage();
 rs4.increaseMileage();
 console.log(rs4.mileage);
 console.log(honda.name + " " + honda.engine);
